@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { OtherComponentComponent } from './components/other-component/other-component.component';
 import { AnatomyComponentComponent } from './components/anatomy-component/anatomy-component.component';
 import { EventComponent } from './components/event/event.component';
+import { NgContentComponent } from './components/ng-content/ng-content.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, OtherComponentComponent, AnatomyComponentComponent, EventComponent],
+  imports: [RouterOutlet, OtherComponentComponent, AnatomyComponentComponent, EventComponent, NgContentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

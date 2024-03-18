@@ -1,3 +1,16 @@
 <app-anatomy-component [titulo]="titulo"></app-anatomy-component>
 <app-other-component [label]="label"></app-other-component>
 <app-event (clicarBotao)="clicarBotao()"></app-event>
+<app-ng-content>
+  <h1>
+    Olá eu sou o h1 no ng content
+  </h1>
+  <div class="app__component">
+    <h2>
+      Olá eu sou o h2 do ng content
+    </h2>
+    <p>
+      Olá eu sou o p do ng content
+    </p>
+  </div>
+</app-ng-content>
