@@ -11,6 +11,6 @@ export class EventComponent {
   @Output() clicarBotao = new EventEmitter<void>();
 
   emitClicarBotao() {
-    this.clicarBotao.emit()
+    this.clicarBotao.emit();
   }
 }
