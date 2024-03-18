@@ -4,11 +4,12 @@ import { OtherComponentComponent } from './components/other-component/other-comp
 import { AnatomyComponentComponent } from './components/anatomy-component/anatomy-component.component';
 import { EventComponent } from './components/event/event.component';
 import { NgContentComponent } from './components/ng-content/ng-content.component';
+import { ProphilePhotoComponent } from './components/prophile-photo/prophile-photo.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, OtherComponentComponent, AnatomyComponentComponent, EventComponent, NgContentComponent],
+  imports: [RouterOutlet, OtherComponentComponent, AnatomyComponentComponent, EventComponent, NgContentComponent, ProphilePhotoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
